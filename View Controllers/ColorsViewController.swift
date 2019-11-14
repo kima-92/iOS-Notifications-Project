@@ -10,7 +10,6 @@ import UIKit
 
 class ColorsViewController: UIViewController {
     
-    // Color Buttons
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,12 +18,15 @@ class ColorsViewController: UIViewController {
     }
 
     @IBAction func redButtonTapped(_ sender: UIButton) {
+        NotificationCenter.default.post(name: .red, object: self)
     }
-    
+
     @IBAction func blueButtonTapped(_ sender: UIButton) {
+        NotificationCenter.default.post(name: .blue, object: self)
     }
     
     @IBAction func greenButtonTapped(_ sender: UIButton) {
+        NotificationCenter.default.post(name: .green, object:  self)
     }
     
     /*
