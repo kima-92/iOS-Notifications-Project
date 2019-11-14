@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA8069CF237E08B8003907EE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8069CE237E08B8003907EE /* Notifications.swift */; };
+		FA8069D1237E09A1003907EE /* StringKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8069D0237E09A1003907EE /* StringKeys.swift */; };
 		FACF8D05237DFA7400B40AD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF8D04237DFA7400B40AD3 /* AppDelegate.swift */; };
 		FACF8D07237DFA7400B40AD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF8D06237DFA7400B40AD3 /* SceneDelegate.swift */; };
 		FACF8D0C237DFA7400B40AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACF8D0A237DFA7400B40AD3 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		FA8069CE237E08B8003907EE /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		FA8069D0237E09A1003907EE /* StringKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringKeys.swift; sourceTree = "<group>"; };
 		FACF8D01237DFA7400B40AD3 /* Notifications Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notifications Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACF8D04237DFA7400B40AD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FACF8D06237DFA7400B40AD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				FA8069CE237E08B8003907EE /* Notifications.swift */,
+				FA8069D0237E09A1003907EE /* StringKeys.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				FACF8D05237DFA7400B40AD3 /* AppDelegate.swift in Sources */,
 				FACF8D07237DFA7400B40AD3 /* SceneDelegate.swift in Sources */,
 				FACF8D1D237DFE4F00B40AD3 /* ColorsViewController.swift in Sources */,
+				FA8069D1237E09A1003907EE /* StringKeys.swift in Sources */,
 				FACF8D1B237DFE4000B40AD3 /* HelloWorldViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
