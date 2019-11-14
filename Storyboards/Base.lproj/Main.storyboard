@@ -10,7 +10,7 @@
         <!--Hello World View Controller-->
         <scene sceneID="lTV-3p-dAw">
             <objects>
-                <viewController id="mLJ-tc-5zl" customClass="HelloWorldViewController" customModule="Notifications_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="HelloWorldVC" id="mLJ-tc-5zl" customClass="HelloWorldViewController" customModule="Notifications_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gaK-S3-JcQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,7 +48,7 @@
         <!--Colors View Controller-->
         <scene sceneID="e4y-3O-Fbt">
             <objects>
-                <viewController id="gGB-5N-KAT" customClass="ColorsViewController" customModule="Notifications_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="ColorViewVC" id="gGB-5N-KAT" customClass="ColorsViewController" customModule="Notifications_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c0n-6A-O1Q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -109,7 +109,7 @@
         <!--Navigation Controller-->
         <scene sceneID="PAh-7M-by6">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6h1-tS-eeL" sceneMemberID="viewController">
+                <navigationController restorationIdentifier="NavigationC" automaticallyAdjustsScrollViewInsets="NO" id="6h1-tS-eeL" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Wmg-Iy-Zi4">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
