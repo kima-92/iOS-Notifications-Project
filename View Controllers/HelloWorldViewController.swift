@@ -13,18 +13,24 @@ class HelloWorldViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        addObservers()
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // Changing background color
+    func addObservers() {
+        NotificationCenter.default.addObserver(self, selector: #selector(changeToRed), name: .red, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(changeToBlue), name: .blue, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(changeToGreen), name: .green, object: nil)
     }
-    */
-
+    
+    @objc private func changeToRed() {
+        view.backgroundColor = .red
+    }
+    @objc private func changeToBlue() {
+        view.backgroundColor = .blue
+    }
+    @objc private func changeToGreen() {
+        view.backgroundColor = .green
+    }
 }

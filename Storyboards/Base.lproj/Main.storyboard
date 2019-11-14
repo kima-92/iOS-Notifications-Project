@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6h1-tS-eeL">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Hello World View Controller-->
         <scene sceneID="lTV-3p-dAw">
             <objects>
-                <viewController id="mLJ-tc-5zl" sceneMemberID="viewController">
+                <viewController id="mLJ-tc-5zl" customClass="HelloWorldViewController" customModule="Notifications_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gaK-S3-JcQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,10 +45,10 @@
             </objects>
             <point key="canvasLocation" x="1000.0000000000001" y="118.52678571428571"/>
         </scene>
-        <!--View Controller-->
+        <!--Colors View Controller-->
         <scene sceneID="e4y-3O-Fbt">
             <objects>
-                <viewController id="gGB-5N-KAT" sceneMemberID="viewController">
+                <viewController id="gGB-5N-KAT" customClass="ColorsViewController" customModule="Notifications_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c0n-6A-O1Q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,7 +64,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="redButtonTapped:" destination="Rf5-BO-x6u" eventType="touchUpInside" id="Cxm-PE-FAR"/>
+                                            <action selector="redButtonTapped:" destination="gGB-5N-KAT" eventType="touchUpInside" id="0C3-bo-dEt"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3j-91-Qhp">
@@ -75,7 +75,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="blueButtonTapped:" destination="Rf5-BO-x6u" eventType="touchUpInside" id="y3K-4y-E4e"/>
+                                            <action selector="blueButtonTapped:" destination="gGB-5N-KAT" eventType="touchUpInside" id="Dgx-xe-b8x"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pX7-hM-EEJ">
@@ -86,7 +86,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="greenButtonTapped:" destination="Rf5-BO-x6u" eventType="touchUpInside" id="P5D-8Q-1Tt"/>
+                                            <action selector="greenButtonTapped:" destination="gGB-5N-KAT" eventType="touchUpInside" id="WqA-bL-BgQ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -103,7 +103,6 @@
                     <navigationItem key="navigationItem" id="aQ1-Tu-mtd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XRO-qS-gwR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="Rf5-BO-x6u" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1831.8840579710147" y="118.52678571428571"/>
         </scene>
